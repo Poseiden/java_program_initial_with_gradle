@@ -18,6 +18,7 @@ target
 .mtj.tmp/
 
 # Package Files #
+*.jar
 *.war
 *.nar
 *.ear
@@ -27,3 +28,6 @@ target
 
 #IDEA
 .idea
+
+#DO NOT ignore gradle wrapper
+!gradle/wrapper/*
