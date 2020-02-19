@@ -19,22 +19,18 @@ pipeline {
 		       '''
 	    }
 	}
-	stage('Build Image') {
-	    steps {
-                script {
-			dockerImage = docker.build(registry)
-                        docker.withRegistry('https://registry.hub.docker.com', registryCredential ) {
-                            dockerImage.push()
-			}
-                }
-	    }
-	}
-	stage('Deploy to dev') {
-	    steps {
-		    sh '''
-			kubectl apply -f ./deploy_k8s.yml -n $dev_env
-			    '''
-	    }
-	}
+	/*Below need docker plugin for jenkins support*/
+	/*stage('Build Image') {*/
+	    /*steps {*/
+                /*script {*/
+		 /*Need docker plugin for jenkins support */
+			/*dockerImage = docker.build(REGISTRY)*/
+                        /*docker.withRegistry('https://your_registry', your_credential ) {*/
+                            /*dockerImage.push()*/
+			/*}*/
+                /*}*/
+	    /*}*/
+	/*}*/
+
     }
 }
