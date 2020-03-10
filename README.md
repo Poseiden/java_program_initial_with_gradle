@@ -5,7 +5,7 @@
 > 该项目是一个初始化代码框架，有效缩短I0时间
 ### 技术选型
 Java + Gradle + Dockefile + Travis + Jenkins
-### 本地构建s
+### 本地构建
 ### 测试策略
 ### 技术架构
 ### 部署架构
@@ -21,9 +21,10 @@ Java + Gradle + Dockefile + Travis + Jenkins
 ### Dockerfile
 ### Travisfile
 ### Read me template
-### CheckStyle
 ### Dockerhub
+### CheckStyle
 ### Test coverage
+### Opensource License
 
 ### Ref
 - [](https://www.cnblogs.com/davenkin/p/spring-boot-template.html)
