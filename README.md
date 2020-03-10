@@ -25,6 +25,7 @@ Java + Gradle + Dockefile + Travis + Jenkins
 ### CheckStyle
 ### Test coverage
 ### Opensource License
+### Lombok
 
 ### Ref
 - [](https://www.cnblogs.com/davenkin/p/spring-boot-template.html)
