@@ -23,13 +23,12 @@ jobs:
     - stage: test
       script: ./gradlew clean test
     - stage: build 
-      script: ./gradlew build
+      script: 
+        - ./gradlew build
+        - ls -al
     - stage: 
         - build image
-        - ls -al
       script: 
-        - ls -al
-        - tree -L 3
         - docker build -t bbos26/java_program_initial_with_gradle:${TRAVIS_BUILD_NUMBER} .
     - stage: push to dockerhub
       script: 
