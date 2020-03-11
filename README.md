@@ -21,11 +21,11 @@ Java + Gradle + Dockefile + Travis + Jenkins
 ### Dockerfile
 ### Travisfile
 ### Read me template
-### Dockerhub
 ### CheckStyle
-### Test coverage
 ### Opensource License
 ### Lombok
+### Dockerhub(DELAY)
+### Test coverage(DELAY)
 
 ### Ref
 - [](https://www.cnblogs.com/davenkin/p/spring-boot-template.html)
